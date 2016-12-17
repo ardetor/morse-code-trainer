@@ -8,7 +8,7 @@ def params_out_of_bounds():
     print(colorama.Back.RED + "Please enter parameters within the specified limits." + colorama.Style.RESET_ALL + "\n\n\n")
 
 def select_level():
-    print(colorama.Back.GREEN + "Welcome to Morse Trainer. Enter '%' to exit." + colorama.Style.RESET_ALL + "\n")
+    print(colorama.Back.GREEN + "Welcome to Morse Trainer. Enter '%' at any point to exit that segment." + colorama.Style.RESET_ALL + "\n")
     difficulty = input("Select difficulty level:\n\t1: aoeuidhtns\n\t2: aoeuidhtnspyfgcrl\n\t3: Whole alphabet\n\t4: Alphabet with punctuation\n\nYour choice: ")
     print("\n\n")
     if difficulty == "%":
